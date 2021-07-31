@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <RootNamespace>NetPostal</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="libpostal.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="libpostal.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
