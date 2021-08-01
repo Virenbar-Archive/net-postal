@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace NetPostal {
 
 public enum libpostal_token_type_t {
   LIBPOSTAL_TOKEN_TYPE_END = 0,
@@ -53,4 +54,6 @@ public enum libpostal_token_type_t {
   LIBPOSTAL_TOKEN_TYPE_WHITESPACE = 300,
   LIBPOSTAL_TOKEN_TYPE_NEWLINE = 301,
   LIBPOSTAL_TOKEN_TYPE_INVALID_CHAR = 500
+}
+
 }

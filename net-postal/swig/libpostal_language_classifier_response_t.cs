@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace NetPostal {
 
 public class libpostal_language_classifier_response_t : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -77,5 +78,7 @@ public class libpostal_language_classifier_response_t : global::System.IDisposab
 
   public libpostal_language_classifier_response_t() : this(libpostalPINVOKE.new_libpostal_language_classifier_response_t(), true) {
   }
+
+}
 
 }

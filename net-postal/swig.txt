@@ -1,0 +1,1 @@
+﻿swig -csharp -namespace NetPostal -outdir cs libpostal.i

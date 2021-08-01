@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace NetPostal {
 
 public class libpostal {
   public static libpostal_normalize_options_t libpostal_get_default_options() {
@@ -283,4 +284,6 @@ public class libpostal {
   public static readonly int LIBPOSTAL_NORMALIZE_DEFAULT_TOKEN_OPTIONS = libpostalPINVOKE.LIBPOSTAL_NORMALIZE_DEFAULT_TOKEN_OPTIONS_get();
   public static readonly int LIBPOSTAL_NORMALIZE_TOKEN_OPTIONS_DROP_PERIODS = libpostalPINVOKE.LIBPOSTAL_NORMALIZE_TOKEN_OPTIONS_DROP_PERIODS_get();
   public static readonly int LIBPOSTAL_NORMALIZE_DEFAULT_TOKEN_OPTIONS_NUMERIC = libpostalPINVOKE.LIBPOSTAL_NORMALIZE_DEFAULT_TOKEN_OPTIONS_NUMERIC_get();
+}
+
 }

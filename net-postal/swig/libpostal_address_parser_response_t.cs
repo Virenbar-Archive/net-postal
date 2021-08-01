@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace NetPostal {
 
 public class libpostal_address_parser_response_t : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -77,5 +78,7 @@ public class libpostal_address_parser_response_t : global::System.IDisposable {
 
   public libpostal_address_parser_response_t() : this(libpostalPINVOKE.new_libpostal_address_parser_response_t(), true) {
   }
+
+}
 
 }

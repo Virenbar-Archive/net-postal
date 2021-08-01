@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace NetPostal {
 
 public class libpostal_fuzzy_duplicate_status_t : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -65,5 +66,7 @@ public class libpostal_fuzzy_duplicate_status_t : global::System.IDisposable {
 
   public libpostal_fuzzy_duplicate_status_t() : this(libpostalPINVOKE.new_libpostal_fuzzy_duplicate_status_t(), true) {
   }
+
+}
 
 }

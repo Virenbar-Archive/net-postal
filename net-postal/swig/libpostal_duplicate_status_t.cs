@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace NetPostal {
 
 public enum libpostal_duplicate_status_t {
   LIBPOSTAL_NULL_DUPLICATE_STATUS = -1,
@@ -15,4 +16,6 @@ public enum libpostal_duplicate_status_t {
   LIBPOSTAL_POSSIBLE_DUPLICATE_NEEDS_REVIEW = 3,
   LIBPOSTAL_LIKELY_DUPLICATE = 6,
   LIBPOSTAL_EXACT_DUPLICATE = 9
+}
+
 }
