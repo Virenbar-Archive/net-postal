@@ -19,10 +19,10 @@ namespace net_postal_generator
 		{
 			var Dir = Path.Combine(Directory.GetCurrentDirectory(), "libpostal");
 			var PO = driver.ParserOptions;
-			PO.LanguageVersion = CppSharp.Parser.LanguageVersion.C99_GNU;
+			//PO.LanguageVersion = CppSharp.Parser.LanguageVersion.C99_GNU;
 			PO.Verbose = true;
-			PO.AddIncludeDirs(@"C:\msys64\mingw64\x86_64-w64-mingw32\include");
-			PO.AddSystemIncludeDirs(@"C:\msys64\mingw64\x86_64-w64-mingw32\include");
+			//PO.AddIncludeDirs(@"C:\msys64\mingw64\x86_64-w64-mingw32\include");
+			//PO.AddSystemIncludeDirs(@"C:\msys64\mingw64\x86_64-w64-mingw32\include");
 
 			var O = driver.Options;
 			O.OutputDir = "Postal";
@@ -31,7 +31,7 @@ namespace net_postal_generator
 
 			var M = O.AddModule("NetPostal");
 			M.Headers.Add("libpostal.h");
-			M.IncludeDirs.Add(Dir);
+			//M.IncludeDirs.Add(Dir);
 			//M.IncludeDirs.Add(@"C:\msys64\mingw64\x86_64-w64-mingw32\include");
 			//M.LibraryDirs.Add(@"C:\msys64\mingw64\x86_64-w64-mingw32\include");
 			//M.Libraries.Add("libpostal.lib");
